@@ -13,7 +13,7 @@ AOC
     end
 
     def test_input_value_simple
-        values = File.read("input_day1.txt")
+        values = File.read("input_day01.txt")
         assert_equal 54953, sum_of_calibration_values_part1(values)
     end
 
@@ -31,7 +31,7 @@ AOC
     end
 
     def test_input_value_part2
-        values = File.read("input_day1.txt")
+        values = File.read("input_day01.txt")
         assert_equal 53868, sum_of_calibration_values_part2(values)
     end
 
