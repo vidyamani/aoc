@@ -1,7 +1,7 @@
 require 'test/unit'
-require_relative 'day1'
+require_relative 'day01'
 
-class TestDay1 < Test::Unit::TestCase
+class TestDay01 < Test::Unit::TestCase
     def test_example_part1
         values = <<-AOC
 1abc2
